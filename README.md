@@ -9,9 +9,9 @@ Churn rate is the percentage of subscribers to a service that discontinue their 
 
 ## Data Preprocessing
 ### Missing Values
-There are 3 numerical variables and 17 categorical variables. The missing values are filled with the mode of the categorical variables and the mean of the numerical variables.
+- There are 3 numerical variables and 17 categorical variables. The missing values are filled with the mode of the categorical variables and the mean of the numerical variables.
 ### Outliers
-The outliers are removed by using the IQR method.
+- The outliers are removed by using the IQR method.
 ### Feature Engineering
 The feature engineering includes:
 - Encoding the categorical variables
@@ -20,7 +20,7 @@ The feature engineering includes:
 
 ## Model Building
 ### Model Selection
-The models used in this project is SVM.
+- The models used in this project is SVM.
 ### Model Evaluation
 The evaluation metrics are:
 - Accuracy
@@ -29,7 +29,6 @@ The evaluation metrics are:
 - F1 score
 - Confusion Matrix
 ### Model Tuning
-The hyperparameters are tuned by using the GridSearchCV method.
-
+- The hyperparameters are tuned by using the GridSearchCV method.
 ## Conclusion
-The best model is SVM with the accuracy of 0.756.
+- The best score SVM with the accuracy of 0.756.
