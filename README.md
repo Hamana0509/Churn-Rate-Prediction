@@ -13,7 +13,7 @@ Churn rate is the percentage of subscribers to a service that discontinue their 
 ### Imbalanced Data
 - The imbalanced data is handled by using the SMOTE method.
 ### Feature Engineering
-The feature engineering includes:
+- The feature engineering includes:
     - Feature extraction
     - Encoding the categorical variables
     - Feature selection
